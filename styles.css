@@ -59,20 +59,31 @@ body {
 section.figures{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     color: #000000;
 }
+.info{  
+    margin-top: 5rem;
+}
 .figures .up{
+    text-align: center;
     font-size: 1rem;
-    position: relative;
-    margin-top: 40px;
 }
 .figures h3{
-    font-size: 3rem;
+    font-size: 2.7rem;
     position: relative;
-    margin-top: 40px;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Roboto Slab', serif;
+}
+.figures p{
+    margin: 20px 15px 0 15px;
+    text-align: center;
 }
 .figures img{
-    width: 300px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
 }
