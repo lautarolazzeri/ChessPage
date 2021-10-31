@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <img src="images/chess.png" id="figures" alt="Chess-image">
     </div>
 
-    <section class="figures">
+    <section class="figures" data-aos="zoom-in">
         <div class="info" id="figuresinfo">
             <h6 class="up">Check the</h6>
             <h3>figures</h3>
@@ -38,11 +39,11 @@
     </section>
 
     <section class="desciption" id="details">
-        <div class="figure">
+        <div class="figure" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="content-image">
-                <img src="images/Rey.png" alt="">
+                <img src="images/Rey.png" alt="king-pic">
             </div>
-            <div class="figure-info">
+            <div class="figure-info" data-aos="zoom-in-up">
                 <h5 class="desciption-up">The</>
                 <h2 class="name">KING</h2>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
@@ -53,9 +54,9 @@
                 <a href="https://es.wikipedia.org/wiki/Ajedrez">View More...</a>
             </div>
         </div>
-        <div class="figure">
+        <div class="figure" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="content-image">
-                <img src="images/reyna.png" alt="">
+                <img src="images/reyna.png" alt="queen-pic">
             </div>
             <div class="figure-info">
                 <h5 class="desciption-up">The</h5>
@@ -68,9 +69,9 @@
                 <a href="https://es.wikipedia.org/wiki/Ajedrez">View More...</a>
             </div>
         </div>
-        <div class="figure">
+        <div class="figure" data-aos="zoom-in-up" data-aos-duration="700">
             <div class="content-image">
-                <img src="images/alfil.png" alt="">
+                <img src="images/alfil.png" alt="bishop-pic">
             </div>
             <div class="figure-info">
                 <h5 class="desciption-up">The</h5>
@@ -83,9 +84,9 @@
                 <a href="https://es.wikipedia.org/wiki/Ajedrez">View More...</a>
             </div>
         </div>
-        <div class="figure">
+        <div class="figure" data-aos="zoom-in-up" data-aos-duration="700">
             <div class="content-image">
-                <img src="images/caballo.png" alt="">
+                <img src="images/caballo.png" alt="knight-pic">
             </div>
             <div class="figure-info">
                 <h5 class="desciption-up">The</h5>
@@ -98,9 +99,9 @@
                 <a href="https://es.wikipedia.org/wiki/Ajedrez">View More...</a>
             </div>
         </div>
-        <div class="figure">
+        <div class="figure" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="content-image">
-                <img class="wpd" src="images/torre.png" alt="">
+                <img class="wpd" src="images/torre.png" alt="rook-pic">
             </div>
             <div class="figure-info">
                 <h5 class="desciption-up">The</h5>
@@ -113,9 +114,9 @@
                 <a href="https://es.wikipedia.org/wiki/Ajedrez">View More...</a>
             </div>
         </div>
-        <div class="figure">
+        <div class="figure" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="content-image">
-                <img src="images/peon.png" alt="">
+                <img src="images/peon.png" alt="pawn-pic">
             </div>
             <div class="figure-info">
                 <h5 class="desciption-up">The</h5>
@@ -145,7 +146,7 @@
                 fugiat sunt, deleniti consequatur!</p>
         </div>
         <div class="image">
-            <img src="images/chessboard.png" alt="">
+            <img src="images/chessboard.png" alt="chessboard-pic">
         </div>
     </section>
 
@@ -165,6 +166,9 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
 </body>
 
 </html>
