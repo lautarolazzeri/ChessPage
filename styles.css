@@ -36,7 +36,7 @@ body {
     letter-spacing: 5px;
     font-size: 0.9em;
     position: absolute;
-    top: 21%;
+    top: 18%;
 }
 
 .container a {
@@ -255,7 +255,7 @@ footer{
     }
     .container h3 {
         font-size: 1.2em;
-        top: 17 %;
+        top: 19%;
     }
     .container a {
         padding: 8px 65px 8px 65px;
@@ -268,5 +268,9 @@ footer{
 @media (min-width: 1024px) {
     .figures img{
         width: 40%;
+    }
+    .container h3 {
+        font-size: 1.2em;
+        top: 18%;
     }
 }
