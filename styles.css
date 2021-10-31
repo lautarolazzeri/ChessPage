@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #F6F6F6;
 }
@@ -86,4 +89,119 @@ section.figures{
     width: 100%;
     margin-top: 30px;
     text-align: center;
+}
+
+section.desciption{
+    background-color: rgb(14, 13, 13);
+    width: 100%;
+    color: #F6F6F6;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 5rem;
+}
+.content-image img{
+    width: 180px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.figure-info{
+    text-align: center;
+}
+.desciption-up{
+    font-size: 0.8rem;
+}
+.name{
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+}
+.figure-info a{
+    padding: 7px 25px 7px 25px;
+    color: #fff;
+    text-decoration: none;
+    background: rgb(218, 44, 44);
+    border-radius: 10px;
+
+}
+.figure-info .text{
+    margin-bottom: 30px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+.separador{
+    height: 70px;
+}
+
+.info-chessboard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.info-chessboard h3{
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.info-chessboard p{
+    padding: 0px 20px 0 20px;
+    text-align: center;
+}
+.chessboard .image{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.chessboard .image img{
+    width:100%;
+}
+.chessboard{
+    margin-bottom: 40px;
+}
+
+
+footer{
+    background-color: rgb(14, 13, 13);
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.separador-footer{
+    margin-bottom: 40px; 
+}
+.links ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.links{
+    margin-bottom: 40px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #F6F6F6;
+}
+.developer{
+    margin-bottom: 40px;
+}
+.developer span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+}
+.developer h2{
+    font-size: 0.9rem;
 }
