@@ -205,3 +205,68 @@ footer{
 .developer h2{
     font-size: 0.9rem;
 }
+@media (min-width: 375px) {
+    .chessboard .image img{
+        width: 250px;
+    } 
+}
+@media (min-width: 480px) {
+    .figure-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .figures img{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .chessboard .image img{
+        width: 300px;
+    } 
+}
+@media (min-width: 768px) {     
+    .content-image img{
+        width: 150px;
+    }
+    .content-image .wpd{
+        margin-top: 20px;
+    }
+    section.desciption{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }   
+    .desciption .figure{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 768px) {
+    .container img{
+        top: 40%;
+        width: 420px;
+        height: 320px;
+    }
+    .container h1 {
+        font-size: 3.5em;
+        top: 1%;
+    }
+    .container h3 {
+        font-size: 1.2em;
+        top: 17 %;
+    }
+    .container a {
+        padding: 8px 65px 8px 65px;
+        margin-top: 0px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        top: 24%;
+    }
+}
+@media (min-width: 1024px) {
+    .figures img{
+        width: 40%;
+    }
+}
