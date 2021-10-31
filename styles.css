@@ -36,7 +36,7 @@ body {
     letter-spacing: 5px;
     font-size: 0.9em;
     position: absolute;
-    top: 18%;
+    top: 21%;
 }
 
 .container a {
@@ -67,7 +67,7 @@ section.figures{
     color: #000000;
 }
 .info{  
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 .figures .up{
     text-align: center;
